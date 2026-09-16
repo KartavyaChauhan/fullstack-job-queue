@@ -1,0 +1,1 @@
+fetch('https://job-queue-backend-a457.onrender.com/jobs', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ title: 'Test', type: 'test' }) }).then(r => r.json()).then(console.log).catch(console.error);

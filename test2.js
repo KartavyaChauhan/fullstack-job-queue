@@ -1,0 +1,1 @@
+fetch('https://fullstack-job-queue.vercel.app/assets/index-DEt9_Ikj.js').then(r => r.text()).then(t => { if(t.includes('localhost:3000')) console.log('LOCALHOST'); if(t.includes('job-queue-backend-a457.onrender.com')) console.log('RENDER'); }).catch(console.error);

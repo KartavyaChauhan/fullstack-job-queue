@@ -1,0 +1,1 @@
+fetch('https://fullstack-job-queue.vercel.app/assets/index-DEt9_Ikj.js').then(r => r.text()).then(t => { const match = t.match(/https:\/\/job-queue[^"']*/g); console.log(match); }).catch(console.error);
